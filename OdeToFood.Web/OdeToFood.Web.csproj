@@ -9,4 +9,10 @@
       <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <None Remove="Autofac.Mvc5" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Autofac.Mvc5" Version="6.0.0" />
+  </ItemGroup>
 </Project>
